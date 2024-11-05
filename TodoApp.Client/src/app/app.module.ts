@@ -6,11 +6,13 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
         AppComponent,
-        BoardComponent 
+        BoardComponent,
+        TestComponent 
   ],
   imports: [
       BrowserModule,
