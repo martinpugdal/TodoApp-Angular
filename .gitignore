@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+.angular/
+*/node_modules/
+*/obj/
+*/bin/Debug/
