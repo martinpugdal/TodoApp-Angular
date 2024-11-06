@@ -15,6 +15,25 @@ ng generate component component-name
 - Creating a new component with a specific prefix
 - Creating a new component with a specific inline template
 - Creating a new component with a specific inline 
+#### Options:
+-- change-detection/c: string [default: Default]
+-- display-block/b: boolean [default: false]
+-- export: boolean [default: false]
+-- flat: boolean [default: false]
+-- inline-style/s: boolean [default: false]
+-- inline-template/t: boolean [default: false]
+-- module/m: string
+-- prefix/p: string
+-- project: string
+-- selector: string
+-- skip-import: boolean [default: false]
+-- skip-selector: boolean [default: false]
+-- skip-tests: boolean [default: false]
+-- standalone: boolean [default: false]
+-- style: string [default: css]
+-- type: string [default: Component]
+-- view-encapsulation/v: string
+
 
 ### Generate a new module
 ```bash
