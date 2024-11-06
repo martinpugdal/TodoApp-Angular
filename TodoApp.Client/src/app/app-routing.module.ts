@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { BoardComponent } from './board/board.component';
+import { BoardComponent } from './components/board/board.component';
 
 // Import the modules for lazy loading
 const routes: Routes = [
