@@ -14,6 +14,7 @@ interface Column {
 }
 
 @Component({
+    standalone: true,
     selector: 'todo-board',
     template: `
     <div class="board">
