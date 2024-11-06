@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board.component';
 import { TestComponent } from './test/test.component';
+import { BoardCardComponent } from './board-card/board-card.component';
 
 @NgModule({
   declarations: [
         AppComponent,
         BoardComponent,
-        TestComponent 
+        TestComponent,
+        BoardCardComponent 
   ],
   imports: [
       BrowserModule,
